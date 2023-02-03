@@ -40,7 +40,9 @@
         i = w.length;
         b = w[i-1];
         h = b.split('.');
-        s = Number(b[1]);
+        Gj=h[0];
+        Gg=h.split('V');
+        s = Number(Gg);;
         sd = s-1;
          document.getElementById("vid").src= "V"+sd+".css";
         console.log(v,sd);
@@ -62,7 +64,9 @@
         i = w.length;
         b = w[i-1];
         h = b.split('.');
-        s = Number(b[1]);
+        Gj=h[0];
+        Gg=h.split('V');
+        s = Number(Gg);
         sd = s+1;
          document.getElementById("vid").src="V"+sd+".css";
         console.log(v,sd);
