@@ -1,30 +1,4 @@
-# Css<!DOCTYPE html>
 
-<html lang="en">
-
-<head>
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
-
-    <meta charset="UTF-8">
-
-    <title></title>
-
-    <link rel="stylesheet" href="style.css">
-
-    <style>
-
-        video{
-
-            width: 100%;
-
-        }
-
-    </style>
-
-</head>
-
-<body>
 
     <video  id="vid"  controls src="a"></video><br>
 
@@ -146,6 +120,3 @@
 
 </script>
 
-</body>
-
-</html>
